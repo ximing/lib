@@ -1,0 +1,7 @@
+node_modules
+**/__tests__/**/expected
+packages/**/*.ejs
+cjs
+esm
+dist/**
+.umi

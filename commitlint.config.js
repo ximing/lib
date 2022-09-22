@@ -1,0 +1,43 @@
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'scope-enum': [
+      2,
+      'always',
+      [
+        'compile',
+        'container',
+        'generator',
+        'jsvm',
+        'mlvm',
+        'require',
+        'shared',
+        'release',
+        'gbc-compile',
+        'gbc-loader',
+        'gbc-ui',
+        'gbc-hot-reload',
+        'gbc-example',
+        'gbc-runtime',
+      ],
+    ],
+    'type-enum': [
+      2,
+      'always',
+      [
+        'build',
+        'ci',
+        'chore',
+        'docs',
+        'feat',
+        'fix',
+        'perf',
+        'refactor',
+        'revert',
+        'style',
+        'test',
+        'deps',
+      ],
+    ],
+  },
+};
